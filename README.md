@@ -13,7 +13,7 @@ to: /home/vagrant/phpmyadmin
 
 2. SSH into your Homestead box `homestead ssh` or `vagrant ssh`
 
-3. `$ curl -sS https://raw.githubusercontent.com/rahamatjahan/pma/master/pma.sh | sh`
+3. `$ curl -sS https://raw.githubusercontent.com/rahamatj/pma/master/pma.sh | sh`
 
 4. Open the `/etc/hosts` file on your main machine and add `{ip from your Homestead.yaml} homestead.phpmyadmin.net` e.g. `192.168.10.10 homestead.phpmyadmin.net`
 
